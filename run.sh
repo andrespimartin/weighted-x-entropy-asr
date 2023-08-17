@@ -1,0 +1,33 @@
+#!/bin/bash
+
+python whisper_multilingual_multitask_wce_finetuning.py \
+    --base_model_dir "openai/whisper-small" \
+    --output_dir "your_location" \
+    --dataset_dir "your_dataset_location" \
+    --load_dataset_from_disk True \
+    --save_dataset_to_disk True \
+    --prune_well_datasets True \
+    --augment_gl_data True \
+    --max_input_length 30 \
+    --min_input_length 0 \
+    --per_device_train_batch_size 16 \
+    --gradient_accumulation_steps 1 \
+    --learning_rate 1e-5 \
+    --weight_decay 0.01 \
+    --warmup_steps 800 \
+    --max_steps 8000 \
+    --gradient_checkpointing True \
+    --fp16 True \
+    --evaluation_strategy "steps" \
+    --per_device_eval_batch_size 8 \
+    --predict_with_generate True \
+    --generation_max_length 225 \
+    --save_steps 1000 \
+    --eval_steps 1000 \
+    --alpha_initial 2.0 \
+    --alpha_final 5.0 \
+    --num_min_steps 4000 \
+    --num_total_steps 8000 \
+    --linear_progressive_weight True \
+    --alpha 1.5 \
+    --dynamic_weight_adaptation False
