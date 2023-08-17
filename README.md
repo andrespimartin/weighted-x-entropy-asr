@@ -71,7 +71,7 @@ Below are the training-related parameters that can be configured:
 
 ### Weighted Cross-Entropy
 
-There are two Weighted Cross-Entropy configuration options. If `linear_progressive_weight` is `True`, you must set the parameters `alpha_initial`, `alpha_final`, `num_min_steps` and `num_total_steps`. If `dynamic_weight_adaptation` is `True`, you must set the value of `alpha`. For more information, see the paper.
+There are two Weighted Cross-Entropy configuration options. If `linear_progressive_weight` is `True`, you must set the parameters `alpha_initial`, `alpha_final`, `num_min_steps` and `num_total_steps`. 
 
 ```bash
 --alpha_initial 2.0 \
@@ -79,6 +79,11 @@ There are two Weighted Cross-Entropy configuration options. If `linear_progressi
 --num_min_steps 4000 \
 --num_total_steps 8000 \
 --linear_progressive_weight True \
+```
+
+If `dynamic_weight_adaptation` is `True`, you must set the value of `alpha`. For more information, see the paper.
+
+```bash
 --alpha 1.5 \
 --dynamic_weight_adaptation False
 ```
