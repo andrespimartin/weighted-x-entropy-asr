@@ -1,4 +1,4 @@
-# Weighted Cross-entropy for Low-Resource Languages in Multilingual Speech Recognition
+# Weighted Cross-Entropy for Low-Resource Languages in Multilingual Speech Recognition
 
 This repository contains code for the paper titled "Weighted Cross-entropy for Low-Resource Languages in Multilingual Speech Recognition". The paper addresses the challenge of integrating low-resource languages into multilingual automatic speech recognition (ASR) systems.
 
