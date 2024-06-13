@@ -93,11 +93,12 @@ If `dynamic_weight_adaptation` is `True`, you must set the value of `alpha`. For
 If you find this work useful for your research, please consider citing our paper:
 
 ```bibtex
-@article{pineiro2023weightedasr,
-  title={Weighted Cross-entropy for Low-Resource Languages in Multilingual Speech Recognition},
-  author={Piñeiro-Martín, Andrés, García-Mateo, Carmen, Docío-Fernández, Laura and López-Pérez, María del Carmen},
-  journal={xxxxxx},
-  year={2023}
+@inproceedings{pineiro24_interspeech,
+  author={Andrés Piñeiro-Martín and Carmen García-Mateo and Laura Docío-Fernández and María del Carmen López-Pérez and Georg Rehm},
+  title={{Weighted Cross-entropy for Low-Resource Languages in Multilingual Speech Recognition}},
+  year=2024,
+  booktitle={Proc. INTERSPEECH 2024},
+  note={To appear}
 }
 ```
 
