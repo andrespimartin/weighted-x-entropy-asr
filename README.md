@@ -95,7 +95,7 @@ If you find this work useful for your research, please consider citing our paper
 ```bibtex
 @inproceedings{pineiro24_interspeech,
   author={Andrés Piñeiro-Martín and Carmen García-Mateo and Laura Docío-Fernández and María del Carmen López-Pérez and Georg Rehm},
-  title={{Weighted Cross-entropy for Low-Resource Languages in Multilingual Speech Recognition}},
+  title={Weighted Cross-entropy for Low-Resource Languages in Multilingual Speech Recognition},
   year=2024,
   booktitle={Proc. INTERSPEECH 2024},
   note={To appear}
